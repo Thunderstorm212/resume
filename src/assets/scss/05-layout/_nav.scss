@@ -1,0 +1,32 @@
+.nav {
+    height: 100%;
+    &__wrapper {
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        margin-left: -2rem;
+    }
+    &__item {
+        color: #fff;
+        font-size: 2rem;
+        margin: 0 2rem;
+    }
+    &__link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: $color-secondary;
+        border-radius: 100%;
+        width: 3.2rem;
+        height: 3.2rem;
+    }
+    &__icon {
+    }
+}
